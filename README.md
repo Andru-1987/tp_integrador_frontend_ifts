@@ -27,3 +27,29 @@ We provide unmatched quality, comfort, and style for property owners across the 
 
 About our furniture
 Our multifunctional collection blends design and function to suit your individual taste. Make each room unique, or pick a cohesive theme that best express your interests and what inspires you. Find the furniture pieces you need, from traditional to contemporary styles or anything in between. Product specialists are available to help you create your dream space.
+
+
+---
+
+Aspectos generales a tener en cuenta:
+* El código HTML DEBE VALIDAR según el validador de la W3C:
+https://validator.w3.org/#validate_by_input
+
+* El código CSS DEBE VALIDAR según el validador de la W3C: https://jigsaw.w3.org/css-
+validator/#validate_by_input
+
+* NO está permitido agregar contenido css con el atributo style dentro del html.
+* Las imágenes correspondientes al diseño que deberá tener la página las puede observar en la
+carpeta “design” que se encuentra en el classroom de la materia.
+* La familia de la fuente debe ser “League Spartan”, que la debe descargar de la web
+https://fonts.google.com/specimen/League+Spartan. Con los siguientes Weights: 500, 600, 700.
+* El tamaño de fuente del body debe ser de 12px.
+* Los diseños del Layout se deben crear con los siguientes anchos:
+1. Mobile: 375px
+2. Desktop: 1440px
+* Los colores que deben usarse en la página, haciendo uso de custom properties, son los
+siguientes:
+1. Dark Gray: hsl(0, 0%, 63%)
+2. Black: hsl(0, 0%, 0%)
+3. White: hsl(0, 0%, 100%)
+4. Very Dark Gray: hsl(0, 0%, 27%)
