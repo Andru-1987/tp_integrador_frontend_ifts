@@ -1,0 +1,89 @@
+:root{
+
+    
+    --Dark-Gray: hsl(0, 0%, 63%);
+    --Black: hsl(0, 0%, 0%);
+    --White: hsl(0, 0%, 100%);
+    --Very-Dark-Gray: hsl(0, 0%, 27%);
+}
+
+body{
+    height: 100dvh;
+    width: 100dvw;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-rows: 3fr 2fr;
+}
+
+
+
+
+header{
+    position: absolute;
+    top:0;
+    left: 4%;
+    display: flex;
+    align-items: center;
+}
+
+header > ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+}
+header > ul > li{    
+    text-decoration: none;
+    list-style: none;
+    color: var(--White);
+}
+
+
+
+.top{
+    display: grid;
+    grid-template-columns: 6fr 5fr;
+    height: 100%;
+}
+
+.pic-carrousel > img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.nav-arrows{
+    position: relative;
+    bottom: 0;
+    right: -100;
+}
+
+
+
+
+
+
+.buttom{
+    display: grid;
+    grid-template-columns: 3fr 4fr 3fr;
+}
+
+
+.dark,
+.light{
+    width: 100%;
+    height: 100%;
+    border: 1px solid red;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.dark{
+    background-image: url("../images/image-about-dark.jpg");
+}
+
+.light{
+    background-image: url("../images/image-about-light.jpg");
+}
