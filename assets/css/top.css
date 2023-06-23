@@ -1,0 +1,55 @@
+.deco {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: left;
+
+    padding: 0 6rem 0 6rem;
+}
+
+.deco img {
+    height: 1rem;
+    width: 3rem;
+}
+
+.deco p {
+    height: 30%;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 20%;
+
+    align-items: center;
+}
+
+.container > p {
+    overflow: hidden;
+    height: 100%;
+}
+
+.deco > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.deco h1 {
+    font-size: clamp(2rem, 10vw, 3rem);
+}
+
+.deco p {
+    font-size: clamp(0.8rem, 10vw, 1.2rem);
+    line-height: 1.5rem;
+    color: var(--Dark-Gray);
+}
+
+.shop .shop-text {
+    width: 50%;
+    text-transform: uppercase;
+    letter-spacing: 1em;
+    color: var(--Black);
+}

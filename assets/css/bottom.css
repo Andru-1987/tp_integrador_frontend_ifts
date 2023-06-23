@@ -1,0 +1,23 @@
+.buttom .info {
+    display: flex;
+    flex-direction: column;
+
+    padding: 10%;
+
+    overflow: hidden;
+}
+
+.info h2 {
+    text-transform: uppercase;
+    font-size: clamp(0.5rem, 2vw, 1.2rem);
+    letter-spacing: 0.8rem;
+}
+
+.info p {
+    font-size: clamp(0.5rem, 2vw, 1.2rem);
+    color: var(--Dark-Gray);
+    line-height: 1.6rem;
+    text-overflow: ellipsis;
+    height: 60%;
+    overflow: hidden;
+}

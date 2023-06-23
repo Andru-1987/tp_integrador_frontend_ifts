@@ -1,0 +1,17 @@
+.nav-arrows {
+    display: flex;
+}
+
+.nav-arrows > div {
+    background-color: var(--Black);
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-arrows > div:hover {
+    background-color: var(--Very-Dark-Gray);
+    cursor: pointer;
+}
