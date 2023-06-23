@@ -5,6 +5,7 @@
 @import url("./bottom.css");
 @import url("./top.css");
 
+@import url("./responsive.css");
 :root {
     --Dark-Gray: hsl(0, 0%, 63%);
     --Black: hsl(0, 0%, 0%);
@@ -21,7 +22,7 @@ body {
     padding: 0;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 8fr 4fr;
+    grid-template-rows: 6fr 5fr;
     box-sizing: border-box;
 
     font-size: 12px;
@@ -32,7 +33,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     display: grid;
-    grid-template-columns: 8fr 5fr;
+    grid-template-columns: 7fr 5fr;
 }
 
 .presentacion {
@@ -49,7 +50,7 @@ body {
     right: -10rem;
 }
 
-.buttom {
+.bottom {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
