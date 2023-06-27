@@ -1,0 +1,49 @@
+nav {
+    gap: 40px;
+    position: absolute;
+    top: 50px;
+    left: 40px;
+    align-items: center;
+    z-index: 10;
+
+    width: 40%;
+}
+
+.nav-menu {
+    gap: 15px;
+    display: none;
+
+    width: 60%;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.hamburger {
+    display: block;
+}
+
+nav a {
+    color: var(--White);
+}
+
+nav.active {
+    background-color: white;
+    width: 100%;
+    top: 0;
+    padding: 20px 20px;
+    left: 0;
+    justify-content: space-between;
+}
+nav.active .nav-menu {
+    display: flex;
+}
+
+.logo {
+    margin-top: 4px;
+}
+
+nav a:hover {
+    padding-bottom: 5px;
+    border-bottom: 1.5px solid var(--White);
+}

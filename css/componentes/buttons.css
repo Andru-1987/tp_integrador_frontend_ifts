@@ -1,0 +1,14 @@
+.button-container {
+    position: absolute;
+    width: 34.5%;
+    margin: 0;
+    bottom: 0;
+    height: fit-content;
+}
+.button-container button {
+    background-color: var(--Black);
+    color: var(--White);
+    padding: 20px 25px;
+    width: 100%;
+    border: 0;
+}
